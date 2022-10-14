@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-10T09:42:00 IST" name="Default suite" finished-at="2022-10-10T09:43:07 IST" duration-ms="66568">
+  <suite started-at="2022-10-12T13:11:41 IST" name="Default suite" finished-at="2022-10-12T13:12:51 IST" duration-ms="70099">
     <groups>
     </groups>
-    <test started-at="2022-10-10T09:42:00 IST" name="Default test" finished-at="2022-10-10T09:43:07 IST" duration-ms="66568">
+    <test started-at="2022-10-12T13:11:41 IST" name="Default test" finished-at="2022-10-12T13:12:51 IST" duration-ms="70099">
       <class name="SmokeTest">
-        <test-method is-config="true" signature="BforeTest()[pri:0, instance:SmokeTest@7dcf94f8]" started-at="2022-10-10T09:42:00 IST" name="BforeTest" finished-at="2022-10-10T09:42:03 IST" duration-ms="3342" status="PASS">
+        <test-method is-config="true" signature="BforeTest()[pri:0, instance:SmokeTest@7dcf94f8]" started-at="2022-10-12T13:11:41 IST" name="BforeTest" finished-at="2022-10-12T13:11:51 IST" duration-ms="10363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BforeTest -->
-        <test-method signature="loginSu(java.lang.reflect.Method)[pri:0, instance:SmokeTest@7dcf94f8]" started-at="2022-10-10T09:42:03 IST" name="loginSu" finished-at="2022-10-10T09:43:07 IST" duration-ms="63170" status="FAIL">
+        <test-method signature="loginSu(java.lang.reflect.Method)[pri:0, instance:SmokeTest@7dcf94f8]" started-at="2022-10-12T13:11:51 IST" name="loginSu" finished-at="2022-10-12T13:12:51 IST" duration-ms="59593" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=106.0.5249.103)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'ADMIN-PC', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+System info: host: 'ADMIN-PC', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [119b6d9de600937eb3f303e929c4929e, findElement {using=xpath, value=//button[@class='sc-jQAphf gfUyYU']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57702/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 119b6d9de600937eb3f303e929c4929e
+Command: [df00b0025c19db0610621f822e2f0a5f, findElement {using=xpath, value=//button[@class='sc-jQAphf gfUyYU']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59572/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df00b0025c19db0610621f822e2f0a5f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
